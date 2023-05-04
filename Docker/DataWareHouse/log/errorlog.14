@@ -1,0 +1,20 @@
+2023-05-04 06:32:37.65 Server      Microsoft SQL Server 2019 (RTM-CU20) (KB5024276) - 15.0.4312.2 (X64) 
+	Apr  1 2023 12:10:46 
+	Copyright (C) 2019 Microsoft Corporation
+	Developer Edition (64-bit) on Linux (Ubuntu 20.04.6 LTS) <X64>
+2023-05-04 06:32:37.65 Server      UTC adjustment: 0:00
+2023-05-04 06:32:37.66 Server      (c) Microsoft Corporation.
+2023-05-04 06:32:37.66 Server      All rights reserved.
+2023-05-04 06:32:37.66 Server      Server process ID is 400.
+2023-05-04 06:32:37.66 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2023-05-04 06:32:37.67 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2023-05-04 06:32:37.69 Server      SQL Server detected 1 sockets with 4 cores per socket and 8 logical processors per socket, 8 total logical processors; using 8 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2023-05-04 06:32:37.70 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2023-05-04 06:32:37.70 Server      Detected 5524 MB of RAM. This is an informational message; no user action is required.
+2023-05-04 06:32:37.71 Server      Using conventional memory in the memory manager.
+2023-05-04 06:32:37.71 Server      Page exclusion bitmap is enabled.
+2023-05-04 06:32:37.75 Server      Buffer pool extension is not supported on Linux platform.
+2023-05-04 06:32:37.75 Server      Buffer Pool: Allocating 1048576 bytes for 804275 hashPages.

@@ -1,0 +1,7 @@
+services:
+
+  Api-Banxico:
+    build: ./Banxico
+  Api-INEGI:
+    build: ./INEGI
+    
