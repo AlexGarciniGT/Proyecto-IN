@@ -1,8 +1,58 @@
 services:
-  # Banxico:
-  #   build: ./Banxico
-  # INEGI:
-  #   build: ./INEGI
-  MSSQL:
-    run: 
+
+  # MSSQL-OLTP:
+  #   image: mcr.microsoft.com/mssql/server:2019-latest
+  #   user: root
+  #   ports:
+  #     - '1433:1433'
+  #   environment:
+  #     - ACCEPT_EULA=Y
+  #     - MSSQL_SA_PASSWORD=Oltp2019.
+  #     - MSSQL_PID=Developer
+  #   volumes:
+  #     - ./MSSQL/log:/var/opt/mssql/log
+  #     - ./MSSQL/data:/var/opt/mssql/data/
+  #     - ./MSSQL/backup:/var/opt/mssql/backup
+  #     - ./MSSQL/secrets:/var/opt/mssql/secrets
+
+  # MSSQL-STAGE:
+  #   image: mcr.microsoft.com/mssql/server:2019-latest
+  #   user: root
+  #   ports:
+  #     - '1432:1433'
+  #   environment:
+  #     - ACCEPT_EULA=Y
+  #     - MSSQL_SA_PASSWORD=Stage2019.
+  #     - MSSQL_PID=Developer
+  #   volumes:
+  #     - ./MSSQL-STAGE/log:/var/opt/mssql/log
+  #     - ./MSSQL-STAGE/data:/var/opt/mssql/data/
+  #     - ./MSSQL-STAGE/backup:/var/opt/mssql/backup
+  #     - ./MSSQL-STAGE/secrets:/var/opt/mssql/secrets
+
+
+  # DataWareHouse:
+  #   image: mcr.microsoft.com/mssql/server:2019-latest
+  #   user: root
+  #   ports:
+  #     - '1431:1433'
+  #   environment:
+  #     - ACCEPT_EULA=Y
+  #     - MSSQL_SA_PASSWORD=Datawh2019.
+  #     - MSSQL_PID=Developer
+  #   volumes:
+  #     - ./DataWareHouse/log:/var/opt/mssql/log
+  #     - ./DataWareHouse/data:/var/opt/mssql/data/
+  #     - ./DataWareHouse/backup:/var/opt/mssql/backup
+  #     - ./DataWareHouse/secrets:/var/opt/mssql/secrets
+
   MySQL:
+    image: mysql:8.0.32-debian
+    user: root
+    ports:
+      - '8080:8080'
+    environment:
+      - MYSQL_ROOT_PASSWORD=root1
+    volumes:
+      - ./MySQL/conf:/etc/mysql/conf.d
+      - ./MySQL/data:/var/lib/mysql
