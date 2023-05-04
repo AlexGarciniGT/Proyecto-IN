@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/19/2023 7:47:11 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="MEUS-VENTUS-ADI"
+  DTS:CreatorName="MEUS-VENTUS-ADI\javie"
+  DTS:DTSID="{A8CFCE72-285E-4647-BFA9-1D9B0C5C0F9E}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5035.3"
+  DTS:LocaleID="2058"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{CB43ADE3-F1A8-48E1-BB76-C3444278C7E8}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>
