@@ -1,7 +1,11 @@
 services:
 
-  Api-Banxico:
-    build: ./Banxico
-  Api-INEGI:
-    build: ./INEGI
+  api-banxico:
+    build: ./banxico
+    volumes:
+      - ./banxico:/Banxico
+  # Api-INEGI:
+  #   build: ./INEGI
+  #   volumes:
+  #     - ./INEGI
     

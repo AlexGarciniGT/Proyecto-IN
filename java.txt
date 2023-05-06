@@ -1,0 +1,253 @@
+[
+    {
+        "Id": "ffa45242730c004b5da575fb90a4f5186d396fef8ebdf75aae1753991579b178",
+        "Created": "2023-05-02T06:22:43.912379317Z",
+        "Path": "/bin/sh",
+        "Args": [
+            "-c",
+            "echo Container started\ntrap \"exit 0\" 15\n\nexec \"$@\"\nwhile sleep 1 \u0026 wait $!; do :; done",
+            "-"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2023-05-02T06:49:20.12161254Z",
+            "FinishedAt": "2023-05-02T06:55:17.5059346Z"
+        },
+        "Image": "sha256:3026983ad30781de7aed2edfd4b028ada27b2a1fed767332290e3f0647c5886a",
+        "ResolvConfPath": "/var/lib/docker/containers/ffa45242730c004b5da575fb90a4f5186d396fef8ebdf75aae1753991579b178/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/ffa45242730c004b5da575fb90a4f5186d396fef8ebdf75aae1753991579b178/hostname",
+        "HostsPath": "/var/lib/docker/containers/ffa45242730c004b5da575fb90a4f5186d396fef8ebdf75aae1753991579b178/hosts",
+        "LogPath": "/var/lib/docker/containers/ffa45242730c004b5da575fb90a4f5186d396fef8ebdf75aae1753991579b178/ffa45242730c004b5da575fb90a4f5186d396fef8ebdf75aae1753991579b178-json.log",
+        "Name": "/nice_mcnulty",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "Mounts": [
+                {
+                    "Type": "volume",
+                    "Source": "java",
+                    "Target": "/workspaces"
+                },
+                {
+                    "Type": "volume",
+                    "Source": "vscode",
+                    "Target": "/vscode"
+                }
+            ],
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/8d561cadce0ba82935a5f4284792ace9bf71a9935440f2d9ecdd437c3513f081-init/diff:/var/lib/docker/overlay2/gc90c273b9q890qjvcxb7rnyu/diff:/var/lib/docker/overlay2/oyikzqnn8xa5nqjq3c0126bs0/diff:/var/lib/docker/overlay2/pt92vlv2ueheuyyhufw6ui2ap/diff:/var/lib/docker/overlay2/ocmycwsiaymv2jp47bxrnf8ou/diff:/var/lib/docker/overlay2/d30a10dc339e14500f1cd0dc9792a93ede33c030ae68b799ba775a49cfe60782/diff:/var/lib/docker/overlay2/3c77c01bf2a6e47aa9d64e782938fdb2b9db5fe38d044cd448cd02fc2f47ea1f/diff:/var/lib/docker/overlay2/0ea99c005ca269f23ce2248f5a274d769e19872be934d68309f3489b759a6a44/diff:/var/lib/docker/overlay2/9091b444d5e52f7784ecff3cdbf2313ab420f6769b792158e4713ed81e8c08e4/diff:/var/lib/docker/overlay2/edc529d1f42e97d5d0c8031291d6e16d7d810dce96b434af0748bdf8246a9bc7/diff:/var/lib/docker/overlay2/3fbee7a8bf3c348c70facded1132d8a0803dd811edb06f66d3791f19302ec594/diff:/var/lib/docker/overlay2/50b53bf64d8a1c718c9689b3688f1c69917aff2a24644dea377e1c1741e638eb/diff:/var/lib/docker/overlay2/fd6331fcf6f4926fa22a7c1a14d433574dd1c6171708dbf0d8ff6615702a5301/diff:/var/lib/docker/overlay2/d35c4d58da72feddb9b3e8b8b905f78eceec4aedee3bf5c654ccfb461c4c5900/diff:/var/lib/docker/overlay2/6aaa6472f6d50403480f836d99d46c054f786f436238478eb0a64baf0ee1b80a/diff:/var/lib/docker/overlay2/94b9eec63e5332e23a2b31cc62084b22e6b5279363a21e47ec9e969306f98335/diff:/var/lib/docker/overlay2/ab81022d745f2c7e7b73c7f563b43cafb6e6408f723eaf61a2c8b8b69a61ce9d/diff:/var/lib/docker/overlay2/1962ef90292b53e7289551077158aa8b45548d2ae6757468cd7d4858f06bfa5e/diff:/var/lib/docker/overlay2/05833883907f7ea603ce1a0a5e56df5cfba55bd795afd749ba0c4c2658d8272f/diff:/var/lib/docker/overlay2/11de24ff9cbe809d4fbb0ae9333ebd6c95104625ff7a19cacff5fc268d5a8561/diff:/var/lib/docker/overlay2/8f8a8a1b9be598d6abd4fb0e153724e4910e278873596ea2e39c2fc978ce254a/diff:/var/lib/docker/overlay2/587e7aa055518e74b340bb111f21e931c820f328876bcd874ecd1fd946dcb3c5/diff",
+                "MergedDir": "/var/lib/docker/overlay2/8d561cadce0ba82935a5f4284792ace9bf71a9935440f2d9ecdd437c3513f081/merged",
+                "UpperDir": "/var/lib/docker/overlay2/8d561cadce0ba82935a5f4284792ace9bf71a9935440f2d9ecdd437c3513f081/diff",
+                "WorkDir": "/var/lib/docker/overlay2/8d561cadce0ba82935a5f4284792ace9bf71a9935440f2d9ecdd437c3513f081/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "vscode",
+                "Source": "/var/lib/docker/volumes/vscode/_data",
+                "Destination": "/vscode",
+                "Driver": "local",
+                "Mode": "z",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "java",
+                "Source": "/var/lib/docker/volumes/java/_data",
+                "Destination": "/workspaces",
+                "Driver": "local",
+                "Mode": "z",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "ffa45242730c",
+            "Domainname": "",
+            "User": "root",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "JAVA_HOME=/usr/lib/jvm/msopenjdk-current",
+                "PATH=/usr/local/sdkman/bin:/usr/local/sdkman/candidates/java/current/bin:/usr/local/sdkman/candidates/gradle/current/bin:/usr/local/sdkman/candidates/maven/current/bin:/usr/local/sdkman/candidates/ant/current/bin:/usr/local/share/nvm/current/bin:/usr/local/sdkman/bin:/usr/local/sdkman/candidates/java/current/bin:/usr/local/sdkman/candidates/gradle/current/bin:/usr/local/sdkman/candidates/maven/current/bin:/usr/local/sdkman/candidates/ant/current/bin:/usr/lib/jvm/msopenjdk-current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=en_US.UTF-8",
+                "SDKMAN_DIR=/usr/local/sdkman",
+                "NVM_DIR=/usr/local/share/nvm",
+                "NVM_SYMLINK_CURRENT=true"
+            ],
+            "Cmd": [
+                "-c",
+                "echo Container started\ntrap \"exit 0\" 15\n\nexec \"$@\"\nwhile sleep 1 \u0026 wait $!; do :; done",
+                "-"
+            ],
+            "Image": "vsc-java-38f4859edd7b569317ac3e80d2b01b1ed6fff6d7ab3ef9d7c384b1049ad69eb1-features",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/bin/sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "dev.containers.id": "java",
+                "dev.containers.release": "v0.3.4",
+                "dev.containers.source": "https://github.com/devcontainers/images",
+                "dev.containers.timestamp": "Tue, 25 Apr 2023 20:53:41 GMT",
+                "dev.containers.variant": "17-bullseye",
+                "devcontainer.config_file": "/workspaces/java/.devcontainer/devcontainer.json",
+                "devcontainer.metadata": "[ {\"id\":\"ghcr.io/devcontainers/features/common-utils:2\"}, {\"id\":\"ghcr.io/devcontainers/features/git:1\"}, {\"remoteUser\":\"vscode\"}, {\"id\":\"ghcr.io/devcontainers/features/git:1\"}, {\"id\":\"ghcr.io/devcontainers/features/java:1\",\"customizations\":{\"vscode\":{\"extensions\":[\"vscjava.vscode-java-pack\"],\"settings\":{\"java.import.gradle.java.home\":\"/usr/local/sdkman/candidates/java/current\"}}}}, {\"id\":\"ghcr.io/devcontainers/features/node:1\",\"customizations\":{\"vscode\":{\"extensions\":[\"dbaeumer.vscode-eslint\"]}}}, {\"customizations\":{\"vscode\":{\"settings\":{},\"extensions\":[\"vscjava.vscode-java-pack\"]}},\"containerEnv\":{\"JAVA_HOME\":\"/usr/lib/jvm/msopenjdk-current\"},\"remoteUser\":\"vscode\"}, {\"id\":\"ghcr.io/devcontainers/features/java:1\",\"customizations\":{\"vscode\":{\"extensions\":[\"vscjava.vscode-java-pack\"],\"settings\":{\"java.import.gradle.java.home\":\"/usr/local/sdkman/candidates/java/current\"}}}} ]",
+                "version": "0.205.24",
+                "vsc.devcontainer.volume.folder": "java",
+                "vsc.devcontainer.volume.name": "java"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "9670121f364f5737194b32607cf94b2b1b5f107cad6d72a1c3e14f6027688291",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {},
+            "SandboxKey": "/var/run/docker/netns/9670121f364f",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "9faf9f9d4fd12b3b737d75ea1e988c20e94d651580484db8c3626bbea2399b6b",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
