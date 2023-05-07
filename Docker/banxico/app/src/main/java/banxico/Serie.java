@@ -2,8 +2,6 @@ package banxico;
 
 import java.util.List;
 
-import banxico.DataSerie;
-
 
 class Serie {
 

@@ -4,8 +4,10 @@ services:
     build: ./banxico
     volumes:
       - ./banxico:/Banxico
-  # Api-INEGI:
-  #   build: ./INEGI
-  #   volumes:
-  #     - ./INEGI
+      - ../Datos/Banxico:/Banxico/app/src/main/resources
+  api-inegi:
+    build: ./INEGI
+    volumes:
+      - ./INEGI:/INEGI
+      - ../Datos/INEGI:/INEGI/data
     

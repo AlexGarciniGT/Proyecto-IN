@@ -2,8 +2,6 @@ package banxico;
 
 import java.util.List;
 
-import banxico.Serie;
-
 class SeriesResponse {
 
 	private List<Serie>series;

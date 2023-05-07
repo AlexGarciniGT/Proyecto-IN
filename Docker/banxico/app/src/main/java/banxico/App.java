@@ -1,33 +1,27 @@
 package banxico;
 
-import banxico.Serie;
-import banxico.Response;
-import banxico.Series;
-import banxico.DataSerie;
-
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
-        try {
+		String[] urls = ReadURL.getUrls();
+        // usando los urls itere por cada url, creando una intancia del hilo de la clase series, tambien va a contar los hilos activos
+        for (String url : urls) {
+            new Thread(new Series(url)).start();
+            if (Thread.activeCount() == 190) {
+                System.out.println(Thread.activeCount());
+                // try {
+                    // levanta un hilo en segundo plano que dura 5 minutos y espera hasta que acabe
+                    // Thread.sleep(5 * 60 * 1000);
+                    while (Thread.activeCount() != 0) {
+                        System.out.print(Thread.activeCount());
+                        System.out.print("\r");
+                    }
+
+                // } catch (InterruptedException e) {
+                //     e.printStackTrace();
+                // }
+            }
+        }
             
-            Series classSeries = new Series();
-			Response response = classSeries.readSeries();
-
-			Serie serie=response.getBmx().getSeries().get(0);
-			System.out.println("Serie: "+serie.getTitulo());
-
-			for(DataSerie data:serie.getDatos()){
-				//Se omiten las observaciones sin dato (N/E)
-				if(data.getDato().equals("N/E")) continue;
-				System.out.println("Fecha: "+data.getFecha());
-				System.out.println("Dato: "+data.getDato());
-			}
-			
-		} catch(Exception e) {
-			System.out.println("ERROR: "+e.getMessage());
-		}
     }
 }

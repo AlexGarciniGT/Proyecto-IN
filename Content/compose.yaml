@@ -1,9 +1,0 @@
-version: '0.1'
-services:
-  requests-servers:
-    build: ./requests
-    ports:
-      - 8000:5000
-    volumes:
-    - ./requests/:/requests
-    
