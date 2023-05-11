@@ -71,3 +71,12 @@
 2023-05-10 23:23:54.35 spid10s     Recovery is complete. This is an informational message only. No user action is required.
 2023-05-10 23:29:01.51 spid55      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
 2023-05-10 23:29:01.55 spid55      Using 'xplog70.dll' version '2019.150.4312' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2023-05-11 00:43:54.18 spid59      Attempting to load library 'xpsqlbot.dll' into memory. This is an informational message only. No user action is required.
+2023-05-11 00:43:54.22 spid59      Using 'xpsqlbot.dll' version '2019.150.4312' to execute extended stored procedure 'xp_qv'. This is an informational message only; no user action is required.
+2023-05-11 00:45:11.03 spid61      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
+2023-05-11 00:45:11.11 spid61      Using 'xpstar.dll' version '2019.150.4312' to execute extended stored procedure 'xp_instance_regread'. This is an informational message only; no user action is required.
+2023-05-11 01:26:31.44 spid10s     Always On: The availability replica manager is going offline because SQL Server is shutting down. This is an informational message only. No user action is required.
+2023-05-11 01:26:31.47 spid10s     SQL Server is terminating in response to a 'stop' request from Service Control Manager. This is an informational message only. No user action is required.
+2023-05-11 01:26:32.22 spid18s     Service Broker manager has shut down.
+2023-05-11 01:26:32.27 spid10s     .NET Framework runtime has been stopped.
+2023-05-11 01:26:33.75 spid10s     SQL Trace was stopped due to server shutdown. Trace ID = '1'. This is an informational message only; no user action is required.

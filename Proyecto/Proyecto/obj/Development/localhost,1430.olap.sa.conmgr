@@ -10,7 +10,7 @@
       DTS:ConnectionString="Data Source=localhost,1430;User ID=sa;Initial Catalog=olap;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Proyecto-{53952F84-47D9-44A8-8ECC-2C1A6897DE43}localhost,1430.olap.sa;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPG6Dfdc62UWnhSJ5HAKOQAAAAAACAAAAAAAQZgAAAAEAACAAAACncqfjMfmQemohtBQgEI73xZLSK+5tV/csxJIpUVh7xQAAAAAOgAAAAAIAACAAAADXLgMedyK/GOQl/JhvL5ETswTOD8RfNbmS6gYyDvhkI4AAAADwhH+teejfXLr5bzuBj9oNTX4ekRC4opZL0Jv8BMOBj/m6cx4vekYdS7yVRDc3/ygIWCbTDX//XKJs0bXmpB6NdasF6Qichnc8dkt6wnxBkRhzqZenNmMXVY77Coy2ZxMPtEf58nQ9RYNrA2d8JW8Bs4i4A925iOoDcRNiE9ZzZUAAAABxWF0xXWs9cEva08u2aYnPlVsY1+e/VW8zhb5T7lVqDwgSbs4Pu7xANuIuK1I0TYqpHS1HYqU0RMxfiweNKODq</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPG6Dfdc62UWnhSJ5HAKOQAAAAAACAAAAAAAQZgAAAAEAACAAAADX5Zkude60/GWfn/xxsg0znNJVbBKmwjQHikNtgHn+IgAAAAAOgAAAAAIAACAAAAB6T8vlfqQuV0lBzyiIfhDxgCw5d8bNU1OlMB/9WU0n74AAAABYnfmpMM68Wdn7gwGrN1MqmgTpgE2IQLKeDwTeKz4n09D4jV+x9ZzDSzp9KpOVjHWCNQ34P01noXqttDbS4UienfdkN1GsSr4JnR3lcMfA2I8dhgLHPx5R/bmvX38/KS+vClE+/B3eneecYVNZ9tROmbZlRkUH+9e85mZBXyCXzEAAAACSkzeKKZTJJJX/HZRgFq8eWTkSxfSyvzbThDY0xsxVqzE5Q7fJOfiQ7ahSLP+78eTA1UPKicgT1Shq+MA8ff9A</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
