@@ -7,10 +7,10 @@
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=localhost,1430;User ID=sa;Initial Catalog=olap;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Proyecto-{53952F84-47D9-44A8-8ECC-2C1A6897DE43}localhost,1430.olap.sa;Auto Translate=False;">
+      DTS:ConnectionString="Data Source=localhost,1430;User ID=sa;Initial Catalog=olap;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Proyecto-{53952F84-47D9-44A8-8ECC-2C1A6897DE43}localhost,1430.olap.sa;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPG6Dfdc62UWnhSJ5HAKOQAAAAAACAAAAAAAQZgAAAAEAACAAAADg5CB+V++cP02Ai+uUj5xNiDxYPUG2TCJMASj2CQb6GQAAAAAOgAAAAAIAACAAAAB0MqiwHtO5s8xg9w5kGXi82VcaWbyZ2pkgowzf8TxIbIAAAACmtrrOyC1w+uE+h7I0Tra7s3zFx8DNPn4x42LoXMk9HbUV8iFZiUw5SxNHTqpBahNpJTmmfkVTi6DsL4nCpNdutj1dpQ4Pgc5OT09so4HNTePtEn4xJzr7OhM8X7zjE1fHaBnKt4HLR8Qd7iqDITcCgygD9bEEp/xyPhW5DdwMGEAAAAAia0SGdlaON8Ntuw/w2Gf9S201KKZ/0wMsZOniQZGMtvmymckGOAmrxrdVYNW70PEcLvuyt9wxpc6tR7hxmIfW</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPG6Dfdc62UWnhSJ5HAKOQAAAAAACAAAAAAAQZgAAAAEAACAAAAAS6I9/oWX71uXXE3qqSY4IToaEZ2FwX3GhPMm3Nd3FCAAAAAAOgAAAAAIAACAAAAD5SRNQDzZ8ggdy/uTQ8YOjsAeBuYxIR2rRe3c4OQoOsIAAAACTw+kMZGmBobfKvE+6WGFoERx2OPJtHlfjcIDt50Q9O8yfcxJsWITE8evHMFoI+pYIuOGOwnDIM518M3/Wu6WZKwgqgEeFzuH9hcfNXH1R03WgUbYbe6ff/TJqdA5RumENucCB37B3LN9C8Lds1DILeezpMdRtypXB3RI3YsGy0EAAAACart6VUqj5d+iiL9DGXqlfofCYnm1716DJYGf2y0mcldH7He7v/bCNAsdJdSnDcwZCAyj+1POadLZTwup+GV1R</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

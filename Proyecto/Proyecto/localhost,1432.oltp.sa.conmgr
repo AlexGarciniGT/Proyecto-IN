@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="localhost,1432.oltp.sa"
-  DTS:DTSID="{301E70C7-4452-4BFA-9CEE-34BF0A69F171}"
+  DTS:DTSID="{E3905840-3A88-4FD6-9C95-ADBFC1CAE419}"
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=localhost,1432;User ID=sa;Initial Catalog=oltp;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Proyecto-{301E70C7-4452-4BFA-9CEE-34BF0A69F171}localhost,1432.oltp.sa;Auto Translate=False;">
+      DTS:ConnectionString="Data Source=localhost,1432;User ID=sa;Initial Catalog=oltp;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Proyecto-{E3905840-3A88-4FD6-9C95-ADBFC1CAE419}localhost,1432.oltp.sa;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPG6Dfdc62UWnhSJ5HAKOQAAAAAACAAAAAAAQZgAAAAEAACAAAABXS2ahSR9EvOccFka6IRYckTvKUsyUfLlSvqxFJVN9UgAAAAAOgAAAAAIAACAAAACOgAQ9GgfrkSdmYfXJIqcxQma483K2r1Zg2BUdeEo0NIAAAABNdYR/EHn/OMMy92kP2+3AacRpZs+g9cRNAX9eAhCYUP0XY4WPXfxoskjZA8jTJXmfo6mcpEYxLaJTjza0nPzYh3WULaeeomiEPzwRbfewczaNy+ablKpTbOt2tiMXAT4MVCGn9g1208faOa4KIcKiUyQnnOem4VEjsD25RI9qd0AAAAC2IJXNu2cTCsuV4RQmyzWAK08zjRh4979kCcGh2gcH3ziUo0hpPVxcrTa2VqMjk3UYEGpwfmz0D7YO+hKHRj3k</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPG6Dfdc62UWnhSJ5HAKOQAAAAAACAAAAAAAQZgAAAAEAACAAAAD+XFKC+Zgwvqskih0Qx+Zgt8GBrn++twlUaMTlyJuwWQAAAAAOgAAAAAIAACAAAACg+KslZz/1K23bfcVqbA8ijcvWhQ3akenIMjKe2onP44AAAACMiQnxAYYpE/0+owC7bq9PL2NAEJZ4e1jveN+JFF0CL25xy03X1w62q9BB56IpRNoDV8o7y4C6ccnMui/8PGDmdKoULnV92LQI3xxMPSJMwbqzwcYHXrOP7uCZJdLaROWiS6lBe9V2jd4ordAIbqBH098zg6KtISbv0+JsSAYyFkAAAAC9a2KDaoLbrw2OqbnV7GoowxOQZmSIJmrsY18YD2iwlveUuczITaITK6umuTo8Cr2Aeekja3je7eX4ROvS2a+Y</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

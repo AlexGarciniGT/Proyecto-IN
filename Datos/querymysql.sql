@@ -1,0 +1,63 @@
+use OLTP;
+CREATE TABLE empresas_productoras (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_empresa VARCHAR(100) NOT NULL,
+    industria VARCHAR(100) NOT NULL,
+    num_empleados INT
+);
+
+INSERT INTO empresas_productoras (nombre_empresa, industria, num_empleados) VALUES
+('Produmax', 'materia prima', 120),
+('MateriCorp', 'materia prima', 85),
+('PrimaTech Industries', 'materia prima', 200),
+('Resourcex', 'materia prima', 180),
+('PrimeMateria', 'materia prima', 150),
+('RawMate Solutions', 'materia prima', 90),
+('InnovaPrima', 'materia prima', 130),
+('MateriaPro', 'materia prima', 100),
+('PrimeIndustri', 'materia prima', 65),
+('EcoPrime Resources', 'materia prima', 110),
+
+('PrimaGlobal', 'materia prima', 75),
+('GreenMateria', 'materia prima', 140),
+('PrimaSphere', 'materia prima', 190),
+('MateriaMax', 'materia prima', 160),
+('FirstPrime Co.', 'materia prima', 95),
+('NaturePrima', 'materia prima', 60),
+('PrimeWay', 'materia prima', 220),
+('SuperiorMateria', 'materia prima', 120),
+('PrimeRise', 'materia prima', 135),
+('MateriaLogic', 'materia prima', 150),
+
+('PrimeForce', 'materia prima', 110),
+('MateriaZen', 'materia prima', 80),
+('PrimaWorld', 'materia prima', 180),
+('MateriaTrust', 'materia prima', 140),
+('PrimePulse', 'materia prima', 125),
+('MateriaCore', 'materia prima', 105),
+('PrimeNation', 'materia prima', 70),
+('MateriaKing', 'materia prima', 155),
+('PrimaResource', 'materia prima', 160),
+('MateriaFirst', 'materia prima', 130),
+
+('PrimeFusion', 'materia prima', 145),
+('MateriaVision', 'materia prima', 120),
+('PrimaEra', 'materia prima', 90),
+('MateriaOne', 'materia prima', 175),
+('PrimeLink', 'materia prima', 100),
+('MateriaMaster', 'materia prima', 150),
+('PrimaLife', 'materia prima', 110),
+('MateriaBrite', 'materia prima', 60),
+('PrimeSource', 'materia prima', 125),
+('MateriaGenius', 'materia prima', 140),
+
+('PrimaSync', 'materia prima', 200),
+('MateriaWorks', 'materia prima', 190),
+('PrimeDirect', 'materia prima', 160),
+('MateriaTouch', 'materia prima', 100),
+('PrimaNow', 'materia prima', 75),
+('MateriaSmart', 'materia prima', 135),
+('PrimeWay Solutions', 'materia prima', 115),
+('MateriaGo', 'materia prima', 90),
+('PrimaConnect', 'materia prima', 170),
+('MateriaSwift', 'materia prima', 80);
